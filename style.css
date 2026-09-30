@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f5;
+    color: #252b29;
+}
+
+.contenedor {
+    width: 550px;
+    max-width: 90%;
+    margin: 35px auto;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+input {
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 17px;
+    border: 1px solid #d9dedc;
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #287568;
+}
+
+button {
+    width: fit-content;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 9px;
+    background-color: #287568;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #205e53;
+}
+
+.buscador {
+    margin-top: 25px;
+}
+
+.lista-contactos {
+    margin-top: 25px;
+}
+
+#mensajeVacio {
+    text-align: center;
+    color: #737b77;
+    margin: 50px 0;
+}
+
+#listaContactos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    background-color: #fafafa;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nombre-contacto {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.telefono-contacto {
+    color: #6d7471;
+}
+
+.btnEliminar {
+    background-color: #b94a48;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.btnEliminar:hover {
+    background-color: #963c3a;
+}
+
+.contador {
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #ddd;
+    color: #6d7471;
+    font-weight: bold;
+}
